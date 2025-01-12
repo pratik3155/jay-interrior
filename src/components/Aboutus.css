@@ -1,0 +1,39 @@
+.aboutus-section .col-md-6 {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.aboutus-section .col-md-6:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.trainer-card {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  /* border-radius: 50%; */
+  overflow: hidden;
+  position: relative;
+  background: #343a40;
+}
+
+.trainer-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .insta {
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+} */
+
+/* .trainer-card:hover .insta {
+  visibility: visible;
+  opacity: 1;
+} */
+
+/* .trainers-section .font-size14 {
+  font-size: 0.875rem;
+} */

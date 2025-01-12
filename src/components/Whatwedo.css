@@ -1,0 +1,174 @@
+.what-we-do {
+    padding: 20px;
+  }
+  
+  .content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .initiative {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .initiative img {
+    width: 100%;
+    max-width: 400px; /* Keeps images the same size */
+    height: auto;
+  }
+  
+  .initiative div {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .initiative h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    
+  }
+  .title-ini , .learn-more{
+    color: #4CAF50;
+  }
+  .initiative p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .cta {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+
+  .cta-button {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    /* background-color: blue; */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #005f72;
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .initiative {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .initiative img {
+      max-width: 100%;
+    }
+  
+    .initiative div {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .initiative h3 {
+      font-size: 1.2rem;
+    }
+  
+    .initiative p {
+      font-size: 0.9rem;
+    }
+  
+    .cta-button {
+      font-size: 1rem;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Container Styling */
+.what-we-do {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+}
+
+.initiatives {
+  margin-top: 40px;
+}
+
+/* Initiative Card Styling */
+.initiative-card {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.initiative-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.initiative-image {
+  width: 90%;
+  height: 400px;
+  transition: transform 0.3s ease;
+}
+
+/* .initiative-card:hover .initiative-image {
+  transform: scale(1.05);
+} */
+
+/* Call-to-Action Section */
+.cta {
+  padding: 50px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.cta-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: #004080;
+  transform: scale(1.05);
+}

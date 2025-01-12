@@ -1,0 +1,98 @@
+/* General Container Styling */
+.get-involve-container {
+  background-color: #f4f4f9;
+  padding: 60px 20px;
+}
+
+/* Section Styling */
+.get-involve-section {
+  margin-bottom: 50px;
+  padding: 40px 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.get-involve-section:nth-child(odd) {
+  background: #f9f9fc;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 2.5rem;
+  color: #388E3C;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Section Description */
+.section-description {
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+/* Feature List */
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.feature-list li {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.feature-list li::before {
+  content: "✔";
+  color: #28a745;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Image Styling */
+.involve-image {
+  max-width: 90%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.involve-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* CTA Button */
+.cta-button-n {
+  background-color: #388E3C;
+  color: #ffffff;
+  padding: 10px 25px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: #003f8a;
+  transform: scale(1.05);
+}
+
+/* Impact Text */
+.impact-text {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-top: 10px;
+  font-style: italic;
+}

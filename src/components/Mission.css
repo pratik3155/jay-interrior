@@ -1,0 +1,224 @@
+/* Global styles for the mission container */
+.mission-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+/* Title styles */
+.mission-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+  
+/* Mission & Vision content styles */
+.mission-content {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    max-width: 900px;
+}
+  
+/* Mission images styling */
+.mission-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.mission-images img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+  
+/* Card container for timeline */
+.timeline {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+  
+/* Timeline card styling */
+.timeline-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.timeline-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+  
+/* Year styling */
+.timeline-card .year {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+  
+/* Event content styling */
+.timeline-card .event {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+  
+/* Responsiveness for the timeline grid */
+@media (max-width: 1024px) {
+    .timeline {
+        grid-template-columns: 1fr 1fr; /* Two columns on tablet */
+    }
+}
+
+@media (max-width: 768px) {
+    .timeline {
+        grid-template-columns: 1fr; /* One column on smaller screens */
+    }
+
+    .timeline-card {
+        padding: 15px;
+    }
+
+    .timeline-card .year {
+        font-size: 1.4rem;
+    }
+
+    .timeline-card .event {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .timeline-card {
+        padding: 12px;
+    }
+
+    .timeline-card .year {
+        font-size: 1.2rem;
+    }
+
+    .timeline-card .event {
+        font-size: 0.9rem;
+    }
+}
+  
+/* CTA Button styles */
+.cta-button {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+  
+.cta-button:hover {
+    background-color: #005f72;
+}
+  
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .mission-title {
+        font-size: 1.8rem;
+    }
+
+    .mission-content {
+        font-size: 1.1rem;
+    }
+
+    /* Adjust mission images to be 2 by 2 on tablets */
+    .mission-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* 2 columns */
+        gap: 20px;
+    }
+
+    .mission-images img {
+        width: 100%;
+        max-width: none; /* Allow images to fill their grid cell */
+    }
+
+    .timeline .year {
+        font-size: 1.3rem;
+    }
+
+    .timeline .event {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .mission-title {
+        font-size: 1.6rem;
+    }
+
+    .mission-content {
+        font-size: 1rem;
+    }
+
+    .mission-images img {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .timeline .year {
+        font-size: 1.2rem;
+    }
+
+    .timeline .event {
+        font-size: 0.9rem;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .mission-title {
+        font-size: 1.4rem;
+    }
+
+    .mission-content {
+        font-size: 0.9rem;
+    }
+
+    .mission-images img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .timeline .year {
+        font-size: 1.1rem;
+    }
+
+    .timeline .event {
+        font-size: 0.9rem;
+    }
+
+    .cta-button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}

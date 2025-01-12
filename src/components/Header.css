@@ -1,0 +1,127 @@
+/* Transparent Navbar at the Top */
+.navbar-transparent {
+  background-color: transparent;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-transparent .nav-link,
+.navbar-transparent .navbar-brand {
+  color: white !important;
+}
+
+.navbar-transparent .donate-btn {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.navbar-transparent .donate-btn:hover {
+  background-color: white;
+  color: #4caf50;
+}
+
+/* Scrolled Navbar */
+.navbar-scrolled {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-brand {
+  color: black !important;
+}
+
+.navbar-scrolled .donate-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.navbar-scrolled .donate-btn:hover {
+  background-color: #0056b3;
+}
+
+/* General Styling for Navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  height: 80px;
+  object-fit: cover;
+  /* border-radius: 50%; */
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: currentColor;
+  width: 25px;
+  height: 3px;
+  display: block;
+  position: relative;
+}
+
+.navbar-toggler-icon::after,
+.navbar-toggler-icon::before {
+  content: '';
+  width: 25px;
+  height: 3px;
+  background-color: currentColor;
+  position: absolute;
+  left: 0;
+}
+
+.navbar-toggler-icon::before {
+  top: -8px;
+}
+
+.navbar-toggler-icon::after {
+  top: 8px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+}
+
+@media (min-width: 769px) {
+  .navbar-nav .nav-link {
+    margin: 0 15px;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
