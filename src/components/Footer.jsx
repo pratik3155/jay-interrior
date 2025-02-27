@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -16,12 +16,33 @@ const Footer = () => {
         <div className="footer-links d-flex justify-content-between flex-wrap mb-4">
           <div className="footer-nav">
             <h5>Navigation</h5>
-            <ul>
-              <li><a href="/home">Home</a></li>
-              <li><NavLink className="nav-link" to="/about">About Us</NavLink></li>
-              <li><NavLink className="nav-link" to="/what-we-do">What We Do</NavLink></li>
-              <li><NavLink className="NavLink" to="/contact">Contact</NavLink></li>
-            </ul>
+        <ul className="navbar-nav">
+                   <li className="nav-item">
+                     <NavLink className="nav-link" to="/">
+                       Home
+                     </NavLink>
+                   </li>
+                   <li className="nav-item">
+                     <NavLink className="nav-link" to="/about">
+                       About Us
+                     </NavLink>
+                   </li>
+                   <li className="nav-item">
+                     <NavLink className="nav-link" to="/what-we-do">
+                       What We Do
+                     </NavLink>
+                   </li>
+                   <li className="nav-item">
+                     <NavLink className="nav-link" to="/get-involved">
+                       Get Involved
+                     </NavLink>
+                   </li>
+                   <li className="nav-item">
+                     <NavLink className="nav-link" to="/contact">
+                       Contact Us
+                     </NavLink>
+                   </li>
+                 </ul>
           </div>
 
           <div className="footer-social">
