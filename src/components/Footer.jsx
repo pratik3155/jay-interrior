@@ -49,7 +49,7 @@ const Footer = () => {
             <h5>Follow Us</h5>
             <ul>
               <li><a href="https://facebook.com">Facebook</a></li>
-              <li><a href="https://instagram.com">Instagram</a></li>
+              <li><a href="https://www.instagram.com/umangsf?igsh=YXEycjdtd3lpandv">Instagram</a></li>
               <li><a href="http://www.linkedin.com/in/umang-social-foundation">LinkedIn</a></li>
             </ul>
           </div>
