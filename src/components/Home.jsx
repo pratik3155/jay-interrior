@@ -8,30 +8,16 @@ import Intro2 from "../assets/intro 2.jpg"
 import Intro3 from "../assets/intro3.jpg"
 import Impact1 from "../assets/impact1.jpg"
 import { NavLink } from 'react-router-dom';
-
-
-
-
 export default function Home() {
   return (
     <div>
-      
-
-
-
-
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-
-
-
-
   <div class="carousel-inner">
-    
     <div class="carousel-item active background-properties main-slide-1 pt-5 ">
     <div className="mt-5 mb-5 pt-5">
     <div className="mt-5 pt-5">
@@ -71,40 +57,7 @@ export default function Home() {
     </div>
     </div>
     </div>
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
@@ -114,52 +67,12 @@ export default function Home() {
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {/* <section className="mission-section mt-5 pt-5">
   <div className="mission-text container">
     <h2 className="fw-bold display-4 ">Who we are ?</h2>
     <p>
     <span className="fs-5 fw-bold">Umang Social Foundation</span> is a dedicated organization committed to uplifting underserved communities by addressing critical social and environmental challenges. We strive to empower the children of sugarcane workers by providing access to quality education and essential healthcare, ensuring a brighter future for the next generation. Additionally, we champion sustainability through our innovative cloth recycling initiatives, which not only reduce waste but also bring tangible benefits to those in need. At Umang, we are driven by the vision of creating a more equitable and sustainable world for all. 
     </p>
-    
   </div>
    <div>
     <div className='row container fw-bold '>
@@ -167,8 +80,6 @@ export default function Home() {
     </div>
    </div>
 </section> */}
-
-
 <section className="welcome-section">
   <div className="welcome-content">
     <div className="welcome-text">
@@ -200,76 +111,6 @@ export default function Home() {
     </div>
   </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   {/* Programs Section */}
 <section className="programs-section">
   <h2 className="homeh2">What We Do ?</h2>
@@ -296,102 +137,7 @@ export default function Home() {
       </p>
     </div>
   </div>
- 
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {/* Achievements Section */}
 <section className="achievements-section">
   <h2 className="homeh2 wwa">Our Achievements</h2>
@@ -399,7 +145,7 @@ export default function Home() {
     <div className="achievement-item">
       <div className="achievement-content">
         <i className="fas fa-users achievement-icon"></i>
-        <h3>390+</h3>
+        <h3>1000+</h3>
         <p>People Served</p>
       </div>
       <div className="achievement-decoration"></div>
@@ -407,7 +153,7 @@ export default function Home() {
     <div className="achievement-item">
       <div className="achievement-content">
         <i className="fas fa-handshake achievement-icon"></i>
-        <h3>5+</h3>
+        <h3>8+</h3>
         <p>New Partnerships</p>
       </div>
       <div className="achievement-decoration"></div>
@@ -415,53 +161,13 @@ export default function Home() {
     <div className="achievement-item">
       <div className="achievement-content">
         <i className="fas fa-dollar-sign achievement-icon"></i>
-        <h3>15,000</h3>
+        <h3>1,50,000</h3>
         <p>Funds Raised</p>
       </div>
       <div className="achievement-decoration"></div>
     </div>
   </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
 {/* Impact Section */}
 <section className="impact-section">
   <h2 className="homeh2">Our Impact</h2>
@@ -472,7 +178,6 @@ export default function Home() {
         Empowering young minds through education, one book, one pen, and one milestone at a time.
         <i className="fas fa-quote-right"></i>
       </blockquote>
-      
       <p className="impact-description">
         Our initiatives continue to bring meaningful change by addressing critical issues in education and development, ensuring a brighter future for everyone we serve.
       </p>
@@ -487,9 +192,6 @@ export default function Home() {
     </div>
   </div>
 </section>
-
-
-    
     </div>
   );
 }

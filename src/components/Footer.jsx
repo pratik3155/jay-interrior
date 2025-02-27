@@ -28,15 +28,15 @@ const Footer = () => {
             <ul>
               <li><a href="https://facebook.com">Facebook</a></li>
               <li><a href="https://instagram.com">Instagram</a></li>
-              <li><a href="https://linkedin.com">LinkedIn</a></li>
+              <li><a href="http://www.linkedin.com/in/umang-social-foundation">LinkedIn</a></li>
             </ul>
           </div>
 
           <div className="footer-policy">
             <h5>Policies</h5>
             <ul>
-              <li><a href="/privacy-policy">Privacy Policy</a></li>
-              <li><a href="/terms">Terms of Service</a></li>
+              <li><a href="/">Privacy Policy</a></li>
+              <li><a href="/">Terms of Service</a></li>
             </ul>
           </div>
         </div>
@@ -54,7 +54,7 @@ const Footer = () => {
         <div className="footer-bottom text-center">
           <p>&copy; {new Date().getFullYear()} Umang Foundation
           | All Rights Reserved</p>
-          <p>Contact: hello@reallygreatsite.com | +123-456-7890</p>
+          <p>Contact: umanag.socialfoundation2023@gmail.com | +123-456-7890</p>
         </div>
       </div>
     </footer>

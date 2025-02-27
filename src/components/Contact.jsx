@@ -45,7 +45,7 @@ export default function Contact() {
           <div className="col-md-6 mb-4">
             <section className="contact-info">
               <h2 className="fw-bold mb-3">Reach Out to Us</h2>
-              <p>Email: <a href="mailto:hello@reallygreatsite.com" className="text-primary">hello@reallygreatsite.com</a></p>
+              <p>Email: <a href="umanag.socialfoundation2023@gmail.com" className="text-primary">umanag.socialfoundation2023@gmail.com</a></p>
               <p>Phone: <a href="tel:+1234567890" className="text-primary">+123-456-7890</a></p>
               <div className="social-media mt-3">
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="me-3">
@@ -56,6 +56,9 @@ export default function Contact() {
                 </a>
                 <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="http://www.linkedin.com/in/umang-social-foundation" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-linkedin fa-2x"></i>
                 </a>
               </div>
             </section>

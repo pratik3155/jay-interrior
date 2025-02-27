@@ -1,9 +1,8 @@
 import React from 'react';
 import './Aboutus.css';
-import Trainer1 from "../assets/pass.jpg"; // Replace with the actual image path
-// import Trainer2 from "../assets/trainer2.jpg"; // Replace with the actual image path
-// import Trainer3 from "../assets/trainer3.jpg"; // Replace with the actual image path
-// import Trainer4 from "../assets/trainer4.jpg"; // Replace with the actual image path
+// import Trainer1 from "../assets/profile"; 
+import Trainer2 from "../assets/profileimg-1.jpg";
+import Trainer1 from "../assets/ravi-sir.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart, faBalanceScale, faUsers, faLeaf, faBook, faHandsHelping, faRecycle } from '@fortawesome/free-solid-svg-icons';
 
@@ -59,11 +58,11 @@ export default function Aboutus() {
           <h4 className="fs-1 fw-bold">Our Experienced Team</h4>
           <p>Who are in extremely love with eco-friendly systems.</p>
         </div>
-        <div className="row container mx-auto column-gap-1 mt-2  trainers">
+        <div className="row container mx-auto  mt-2  trainers">
           {[
-            { name: "Ethel Davis", role: "Managing Director (Sales)", image: Trainer1 },
-            { name: "Roodney Cooper", role: "Creative Art Director (Sales)", image: Trainer1 },
-            { name: "Dora Walker", role: "Core Developer", image: Trainer1 },
+            { name: "Ravindra Takawne", role: "Chairman", image: Trainer1 },
+            { name: "Meera Chittapure", role: "Secretary", image: Trainer2 },
+            // { name: "Dora Walker", role: "Core Developer", image: Trainer1 },
             
           ].map((trainer, index) => (
             <div className="col-12 col-md text-center mt-5" key={index}>
@@ -86,7 +85,7 @@ export default function Aboutus() {
                 </div> */}
               </div>
               <div>
-                <h4 className="h5 mt-3">{trainer.name}</h4>
+                <h4 className="h5 mt-3 fw-bold">{trainer.name}</h4>
                 <p className="font-size14 text-secondary fw-light">{trainer.role}</p>
               </div>
             </div>
