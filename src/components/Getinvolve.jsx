@@ -1,5 +1,5 @@
 import React from 'react';
-import './GetInvolve.css';
+import './Getinvolve.css';
 import Image13 from "../assets/hero-img.jpg"; // Volunteer Image
 import Image14 from "../assets/impa4.jpg"; // Donate Image
 import Image15 from "../assets/team.jpeg"; // Partner Image
