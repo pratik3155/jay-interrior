@@ -60,7 +60,7 @@ export default function Aboutus() {
         </div>
         <div className="row container mx-auto  mt-2  trainers">
           {[
-            { name: "Ravindra Takawne", role: "Chairman", image: Trainer1 },
+            { name: "Ravindra Takawane", role: "Chairman", image: Trainer1 },
             { name: "Meera Chittapure", role: "Secretary", image: Trainer2 },
             // { name: "Dora Walker", role: "Core Developer", image: Trainer1 },
             
