@@ -57,7 +57,7 @@
 
 .logo {
   width: 150px;
-  height: 80px;
+/*   height: 80px; */
   object-fit: cover;
   /* border-radius: 50%; */
 }
