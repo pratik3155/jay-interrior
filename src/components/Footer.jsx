@@ -49,8 +49,8 @@ const Footer = () => {
             <h5>Follow Us</h5>
             <ul>
               <li><a href="https://facebook.com">Facebook</a></li>
-              <li><a href="https://www.instagram.com/umangsf?igsh=YXEycjdtd3lpandv">Instagram</a></li>
-              <li><a href="http://www.linkedin.com/in/umang-social-foundation">LinkedIn</a></li>
+              <li><a href="https://www.instagram.com/interiorsbyjaymene?igsh=OTR1d2xoMHJoejE0&utm_source=qr">Instagram</a></li>
+              
             </ul>
           </div>
 

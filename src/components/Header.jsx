@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import './Header.css';
-import Logo from '../assets/SMART_Interiors-removebg-preview.png';
+import Logo from '../assets/assetid/logofinal.png';
 
 const Header = () => {
   const [navbarScrolled, setNavbarScrolled] = useState(false);
