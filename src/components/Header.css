@@ -10,13 +10,13 @@
 }
 
 .navbar-transparent .donate-btn {
-  background-color: #4caf50;
+  background-color: #E77119;
   color: #fff;
 }
 
 .navbar-transparent .donate-btn:hover {
   background-color: white;
-  color: #4caf50;
+  color: #E77119;
 }
 
 /* Scrolled Navbar */
@@ -32,7 +32,7 @@
 }
 
 .navbar-scrolled .donate-btn {
-  background-color: #4caf50;
+  background-color: #E77119;
   color: white;
 }
 
@@ -56,9 +56,9 @@
 }
 
 .logo {
-  width: 150px;
+  width: 135px;
 /*   height: 80px; */
-  object-fit: cover;
+  object-fit: cover
   /* border-radius: 50%; */
 }
 

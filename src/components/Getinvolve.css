@@ -96,3 +96,12 @@
   margin-top: 10px;
   font-style: italic;
 }
+.hover{
+  transition: all 0.3s ease-in-out;
+}
+.hover:hover{
+  transform: scale(1.1);
+}
+.coll{
+  color: #E77119;;
+}

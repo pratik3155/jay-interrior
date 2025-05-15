@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import './Header.css';
-import Logo from '../assets/logo2.png';
+import Logo from '../assets/SMART_Interiors-removebg-preview.png';
 
 const Header = () => {
   const [navbarScrolled, setNavbarScrolled] = useState(false);
@@ -35,7 +35,7 @@ const Header = () => {
         <NavLink className="navbar-brand d-flex align-items-center" to="/">
           <img
             src={Logo}
-            alt="Umang Foundation Logo"
+            alt="Logo"
             className="logo"
           />
         </NavLink>
@@ -68,12 +68,12 @@ const Header = () => {
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/what-we-do">
-                What We Do
+                Services
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/get-involved">
-                Get Involved
+              <NavLink className="nav-link" to="/projects">
+                Projects
               </NavLink>
             </li>
             <li className="nav-item">
@@ -86,8 +86,8 @@ const Header = () => {
 
         {/* Donate Us Button on the Right */}
         <div className="d-none d-md-flex align-items-center">
-          <NavLink className="btn btn-success donate-btn" to="/contact">
-            Donate Us
+          <NavLink className="btn btn-success rounded-pill p-3 donate-btn border-0" to="/contact">
+            Free Quote
           </NavLink>
         </div>
       </div>

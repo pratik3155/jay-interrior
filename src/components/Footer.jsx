@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container">
         {/* Logo Section */}
         <div className="footer-logo text-center mb-4">
-          <h2>Umang Foundation
+          <h2>SMART HOME DECOR
           </h2>
         </div>
 
@@ -29,12 +29,12 @@ const Footer = () => {
                    </li>
                    <li className="nav-item">
                      <NavLink className="nav-link" to="/what-we-do">
-                       What We Do
+                       Services
                      </NavLink>
                    </li>
                    <li className="nav-item">
-                     <NavLink className="nav-link" to="/get-involved">
-                       Get Involved
+                     <NavLink className="nav-link" to="/projects">
+                       Projects
                      </NavLink>
                    </li>
                    <li className="nav-item">
@@ -55,28 +55,29 @@ const Footer = () => {
           </div>
 
           <div className="footer-policy">
-            <h5>Policies</h5>
+            <h5>Services</h5>
             <ul>
-              <li><a href="/">Privacy Policy</a></li>
-              <li><a href="/">Terms of Service</a></li>
+              <li><a href="/">Home Decor</a></li>
+              <li><a href="/">Party Interior</a></li>
+              <li><a href="/">Office Interior</a></li>
             </ul>
           </div>
         </div>
 
         {/* Subscribe Section */}
-        <div className="footer-subscribe text-center mb-4">
+        {/* <div className="footer-subscribe text-center mb-4">
           <h5>Subscribe to get the latest updates</h5>
           <div className="subscribe-form">
             <input type="email" placeholder="Enter your email" />
             <button>Subscribe</button>
           </div>
-        </div>
+        </div> */}
 
         {/* Footer Bottom */}
         <div className="footer-bottom text-center">
-          <p>&copy; {new Date().getFullYear()} Umang Foundation
+          <p>&copy; {new Date().getFullYear()} SMART HOME DECOR
           | All Rights Reserved</p>
-          <p>Contact: umanag.socialfoundation2023@gmail.com | +123-456-7890</p>
+          <p>Contact: Jaymene43@gmail.com | +91 9422547140</p>
         </div>
       </div>
     </footer>

@@ -20,12 +20,12 @@ export default function Contact() {
 
       <div className="container mt-5">
         {/* Donate Us Section */}
-        <section className="donate-us-section py-5 text-center">
+        {/* <section className="donate-us-section py-5 text-center">
           <h2 className="fw-bold mb-4">Support Our Mission: Donate to Us</h2>
           <p className="text-muted mb-4">
             Your contribution helps us empower underserved communities through education, healthcare, and sustainability. Every donation makes a difference!
           </p>
-          <div className="row align-items-center">
+          <div className="row align-items-center"> */}
             {/* <div className="col-md-6">
               <h4 className="fw-bold">Bank Details</h4>
               <p><strong>Account Name:</strong> Umang Social Foundation</p>
@@ -33,44 +33,42 @@ export default function Contact() {
               <p><strong>Bank Name:</strong> ABC Bank</p>
               <p><strong>IFSC Code:</strong> ABCD0123456</p>
             </div> */}
-            <div className="col-md text-center">
+            {/* <div className="col-md text-center">
               <h4 className="fw-bold mb-3">Scan to Donate</h4>
               <img src={QRCode} alt="Donate QR Code" className="qr-code" />
             </div>
           </div>
-        </section>
+        </section> */}
 
         <div className="row mt-5">
           {/* Contact Information Section */}
           <div className="col-md-6 mb-4">
             <section className="contact-info">
               <h2 className="fw-bold mb-3">Reach Out to Us</h2>
-              <p>Email: <a href="umanag.socialfoundation2023@gmail.com" className="text-primary">umanag.socialfoundation2023@gmail.com</a></p>
-              <p>Phone: <a href="tel:+1234567890" className="text-primary">7020239103 / 7758078403</a></p>
+              <p>Email: <a href="jaymene43@gmail.com" className="" style={{ color: '#E77119' }}>Jaymene43@gmail.com</a></p>
+              <p>Phone: <a href="tel:+1234567890" style={{ color: '#E77119' }}> +91 9422547140</a></p>
               <div className="social-media mt-3">
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="me-3">
-                  <i className="fab fa-facebook fa-2x"></i>
+                  <i className="fab fa-facebook fa-2x" style={{ color: '#E77119' }}></i>
                 </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="me-3">
-                  <i className="fab fa-instagram fa-2x"></i>
+                <a href="https://www.instagram.com/interiorsbyjaymene?igsh=OTR1d2xoMHJoejE0&utm_source=qr" target="_blank" rel="noopener noreferrer" className="me-3">
+                  <i className="fab fa-instagram fa-2x" style={{ color: '#E77119' }}></i>
                 </a>
                 <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-twitter fa-2x"></i>
+                  <i className="fab fa-twitter fa-2x" style={{ color: '#E77119' }}></i>
                 </a>
-                <a href="http://www.linkedin.com/in/umang-social-foundation" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-linkedin fa-2x"></i>
-                </a>
+             
               </div>
             </section>
 
             {/* Location Section */}
             <section className="location mt-5">
               <h2 className="fw-bold mb-3">Find Us Here</h2>
-              <p>Flat no 602 Sunskruti Meander Wagholi </p>
+              <p>kamna vasahat ,canel road ,karvengar, pune 52 </p>
               <div className="map-container">
                 <iframe
                   title="Map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.015514302278!2d73.99631657496425!3d18.57333928253052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3cb690b7b49%3A0x971319bf0f046ab7!2sSanskruti&#39;s%20Meander%20Wagholi!5e0!3m2!1sen!2sin!4v1740724066034!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.781109452096!2d73.81479012496222!3d18.49357158259471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfc296bf73f9%3A0xa4a9cc412b0b874e!2sKamana%20Vasahat%2C%20Hingne%20Budrukh%2C%20Karvenagar%2C%20Pune%2C%20Maharashtra%20411052!5e0!3m2!1sen!2sin!4v1747316373692!5m2!1sen!2sin"
                   width="100%"
                   height="250"
                   frameBorder="0"
@@ -78,6 +76,7 @@ export default function Contact() {
                   aria-hidden="false"
                   tabIndex="0"
                 ></iframe>
+
               </div>
             </section>
           </div>
@@ -108,7 +107,7 @@ export default function Contact() {
                     <label htmlFor="message" className="form-label">Message*</label>
                     <textarea id="message" className="form-control" rows="4" required></textarea>
                   </div>
-                  <button type="submit" className="btn btn-primary btn-lg w-100">Send Message</button>
+                  <button type="submit" className="btn btn-lg w-100"style={{ backgroundColor: '#E77119' }}>Send Message</button>
                 </form>
               )}
             </section>

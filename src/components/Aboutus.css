@@ -6,6 +6,11 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
+.aboutus-header{
+  background-image: url(../assets/assetid/h2_hero1.jpg);
+  height: 50vh;
+}
+
 .trainer-card {
   height: 300px;
   width: 300px;

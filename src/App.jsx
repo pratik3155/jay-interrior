@@ -30,7 +30,7 @@ const App = () => {
         <Route path="/" element={<Header />} />
         <Route path="/about" element={<Aboutuspage />} />
         <Route path="/what-we-do" element={<Whatwedopage />} />
-        <Route path="/get-involved" element={<Getinvolvepage />} />
+        <Route path="/projects" element={<Getinvolvepage />} />
         <Route path="/contact" element={<Contactpage />} />
         {/* Fallback route */}
         <Route path="*" element={<div>404: Page Not Found</div>} />

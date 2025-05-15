@@ -5,46 +5,45 @@ import Image9 from "../assets/team.jpeg";
 import Impactimg1 from "../assets/impa.jpg";
 import Impactimg2 from "../assets/impa4.jpg";
 import Impactimg3 from "../assets/impa3.jpg";
+import abtds from "../assets/assetid/about1.jpg";
+import { faCompassDrafting, faCouch, faLightbulb } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Mission() {
   return (
-    <div className="mission-container">
-      <h2 className="mission-title fs-1 fw-bold">Our Mission & Vision</h2>
-      <div className="mission-content">
-        <p><strong className='fw-bold fs-5 text-info'>Mission:</strong> To empower marginalized communities and promote social justice by addressing issues such as poverty, inequality, and hygiene awareness in rural areas. We aim to create a society where everyone has access to education, healthcare, hygiene resources, and economic opportunities.</p>
-        <p><strong className='fw-bold fs-5 text-info'>Vision:</strong> A world where every individual, regardless of socio-economic background, has access to essential rights like education, healthcare, and opportunities for sustainable growth and development.</p>
-        <i className='fw-bold '>Guided by the values of equality, social justice, and sustainability, we are dedicated to transformative change.</i>
-      </div>
+    <div className="">
+      
 
-      <div className="mission-images">
+      {/* <div className="mission-images">
         <img src={Image9} alt="Education" />
         <img src={Impactimg1} alt="Healthcare" />
         <img src={Impactimg2} alt="Hygiene" />
         <img src={Impactimg3} alt="Sustainability" />
-      </div>
+      </div> */}
 
-      <div className="timeline">
-        <div className="timeline-card">
-          <div className="year">2023</div>
-          <div className="event">Foundation established, focusing on sugarcane workers and their children.</div>
-        </div>
-        <div className="timeline-card">
-          <div className="year">2024</div>
-          <div className="event">Launched the 'Samarpan Project' to distribute clothing and essentials to marginalized communities.</div>
-        </div>
-        <div className="timeline-card">
-          <div className="year">2025</div>
-          <div className="event">Expanded programs to include hygiene awareness and waste management initiatives.</div>
-        </div>
-        <div className="timeline-card">
-          <div className="year">Ongoing</div>
-          <div className="event">Partnering with organizations to promote education, healthcare, and sustainability.</div>
-        </div>
-      </div>
+      <div className='row container mx-auto  abtds mb-5 '>
 
-      <NavLink className="btn btn-color donate-btn btn-success ps-5 pe-5 pt-3 pb-3" to="/get-involved">
-                       Join Us on Our Journey
+        <div className='col-12 col-lg-6'>
+          <div className='mt-lg-3 pt-lg-4 ps-lg-5 text-center'>
+            <h2 className='display-4 text-center text-lg-start fw-bold  pt-lg-5 ps-lg-4 pe-lg-5 '>Design the
+            home you love</h2>
+            <p className='p-lg-4 text-lg-start text-center fs-5'>With over 5  years of combined experience, our mission is to design with your values and vision in mind. We’re out to create purposeful spaces that balance art and creativity with science and strategy.</p>
+            <NavLink className="btn btn-color mx-auto donate-btn  rounded-pill text-center spa " to="/contact">
+                       Get a Free Quotation 
                      </NavLink>
+          </div>
+        </div>
+
+        <div className='col-12 col-lg-5'>
+          <div className='abtds-img pe-lg-5'>
+            <img src={abtds} alt="" />
+          </div>
+        </div>
+
+      </div>
+
+
+      
     </div>
   );
 }

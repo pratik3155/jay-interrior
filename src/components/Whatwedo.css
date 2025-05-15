@@ -6,12 +6,23 @@
     max-width: 1200px;
     margin: 0 auto;
   }
+  .service-bg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)) , url(../assets/assetid/serv-bg.jpg);
+    height: 35vh;
+  }
+
   
   h2 {
     text-align: center;
     margin-bottom: 30px;
   }
-  
+  .serv-card:hover{
+    background-color: #E77119;
+    color: #fff;
+  }
   .initiative {
     display: flex;
     justify-content: space-between;
@@ -43,9 +54,10 @@
     line-height: 1.6;
   }
   
-  .cta {
+  .bgc {
     text-align: center;
     margin-top: 40px;
+    background-color: #E77119;
   }
   
 
@@ -63,6 +75,9 @@
   .cta-button:hover {
     background-color: #005f72;
   }
+  .ddd{
+    height: 200px;
+  }
   
   
   /* Responsive Design */
@@ -79,6 +94,9 @@
     .initiative div {
       margin-bottom: 20px;
     }
+    .ddd{
+      height: auto;
+    }
   }
   
   @media (max-width: 480px) {
@@ -93,6 +111,10 @@
     .cta-button {
       font-size: 1rem;
     }
+    .ddd{
+      height: auto;
+    }
+    
   }
   
 
